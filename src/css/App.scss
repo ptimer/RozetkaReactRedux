@@ -1,0 +1,8 @@
+@font-face{
+	font-family: 'Rozetka';
+	src: local('Rozetka'), url(./fonts/RozetkaWeb-Regular.woff) format('woff');
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Rozetka,BlinkMacSystemFont,-apple-system,Arial,Segoe UI,Roboto,Helvetica,sans-serif;
+}

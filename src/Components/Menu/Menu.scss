@@ -1,0 +1,52 @@
+.menu{
+	width: 300px;
+    border-radius: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #fff;
+
+    ul{
+    	padding: 0;
+    	margin: 0;
+    	li{
+    		a{
+			    display: inline-block;
+			    vertical-align: bottom;
+			    width: 100%;
+			    padding-left: 12px;
+			    padding-right: 12px;
+			    font-size: 16px;
+			    line-height: 31px;
+			    text-decoration: none;
+			    position: relative;
+			    color: var(--link-color);
+
+			    &:hover{
+			    	color: var(--global-red);
+			    	text-decoration: underline;
+			    }
+
+			    span{
+				    margin-right: 8px;
+			    	.svgIcon{
+			    		width: 24px;
+			    		height: 24px;
+			    		fill: #adb8c8;
+			    		vertical-align: middle;
+			    	}
+			    }
+
+			    .svgArrow{
+			    	position: absolute;
+					right: 8px;
+					top: 8px;
+					fill: var(--link-color);
+					transition: all .2s ease;
+					transform: rotate(-90deg);
+					width: 16px;
+					height: 16px;
+			    }
+		    }
+    	}
+    }
+}
